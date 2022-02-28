@@ -1,0 +1,22 @@
+pipeline {
+  agent {
+  label 'slave'
+  }
+  parameters {
+  string defaultValue: 'master', description: 'Please select any branch : ', name: 'branchname'
+  }
+  stages {
+    stage('git clone') {
+      steps {
+         git branch: "${params.branchname}", url: 'https://github.com/KarthigaU/JenkinsWar.git'
+      }
+    }
+    stage('maven command') {
+      steps {
+        sh """
+		 mvn clean install
+		"""
+      }
+    }
+   }
+}
