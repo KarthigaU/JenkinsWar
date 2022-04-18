@@ -18,11 +18,4 @@
   <build>
     <finalName>ajith-valimai</finalName>
   </build>
-  <distributionManagement>
-    <repository>
-        <id>myprod</id>
-        <name>snapshot</name>
-        <url>http://100.27.8.192:8081/repository/mysnapshot/</url>
-    </repository>
-  </distributionManagement>
 </project>
