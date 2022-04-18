@@ -18,4 +18,11 @@
   <build>
     <finalName>ajith-valimai</finalName>
   </build>
+  <distributionManagement>
+   <repository>
+      <id>nexus3</id>
+      <name>snapshot</name>
+       <url>http://http://18.207.226.96:8081/repository/myprodsnapshot/</url>
+    </repository>
+  </distributionManagement>
 </project>
