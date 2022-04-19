@@ -22,7 +22,7 @@
    <repository>
       <id>nexus3</id>
       <name>snapshot</name>
-       <url>http://http://18.207.226.96:8081/repository/myprodsnapshot/</url>
+       <url>http://http://44.201.16.131:8081/repository/myprodsnapshot/</url>
     </repository>
   </distributionManagement>
 </project>
