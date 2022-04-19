@@ -1,4 +1,2 @@
-FROM newimage:1.0
-COPY ./JenkinsWar /opt/tomcat/webapps/JenkinsWar
-EXPOSE 8080
-
+FROM tomcat
+COPY target/*.war /opt/tomcat/webapps/
