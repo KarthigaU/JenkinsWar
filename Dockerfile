@@ -1,4 +1,3 @@
 FROM tomcat
-ADD ./target/ajith-valimai.war /opt/tomcat/webapps/
-EXPOSE 8080
+ADD ./target/ajith-valimai.war /usr/local/tomcat/webapps
 CMD ["catalina.sh", "run"]
