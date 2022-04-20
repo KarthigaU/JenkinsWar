@@ -1,2 +1,2 @@
 FROM tomcat
-COPY target/*.war /opt/tomcat/webapps/
+COPY target/ajith-valimai/ /opt/tomcat/webapps/
